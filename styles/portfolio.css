@@ -18,7 +18,28 @@ h6 {
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
-
+nav li {
+    display:inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 20px;
+}
+nav ul {
+    padding:0;
+    margin:0;
+}
+nav {
+    padding:20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #272727;
+}
+nav a:hover,
+nav li.active a {
+    color:var(--branding-color);
+    transition: all 100ms ease-in-out;
+}
 h1 {
     font-size: 96px;
 }
