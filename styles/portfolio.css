@@ -127,6 +127,9 @@ p {
 h2 {
     font-size: 64px;
 }
+h4 {
+    font-size: 48px;
+}
 
 .project-description {
     padding:120px 60px;
@@ -147,6 +150,16 @@ h2 {
 footer {
     margin:60px 0;
 }
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding:30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin:0;
+}
+
 
 footer .email-link {
     text-decoration: none;
@@ -161,12 +174,19 @@ footer .email-link:hover {
 footer .social-links {
     text-align: center;
 }
+
 .social-links a {
     text-decoration: none;
     margin:0 20px;
     color: var(--branding-color);
-    background-color: var(--heading-font-family);
+    background-color: var(--secondary-color);
     padding: 10px 14px;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 20px;
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a :hover {
+    color: white;
+    background-color: var(--branding-color);
 }
